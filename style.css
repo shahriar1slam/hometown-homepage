@@ -55,7 +55,7 @@ body {
 /* middle section */
 #middle{
   background-color: #C8D6AF;
-  width: 1800px;
+  width: auto;
   height: 460px;
   padding: 50px;
   border-bottom: 2px solid #D9F4C7;
@@ -103,7 +103,7 @@ body {
 #footer {
   background-color: #C8D6AF;
   height: 20px;
-  width: 1900px;
+  width: auto;
 }
 
 .cr {
