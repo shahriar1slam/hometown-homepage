@@ -15,7 +15,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column; 
+  flex-direction: column;
   border-bottom: 2px solid #D9F4C7;
 }
 
@@ -53,18 +53,18 @@ body {
 }
 
 /* middle section */
-#middle{
+#middle {
   background-color: #C8D6AF;
   width: auto;
   height: 460px;
   padding: 50px;
-  border-bottom: 2px solid #D9F4C7;
+
   margin: 0 auto;
-  }
+}
 
 #plswork {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
 }
 
@@ -77,7 +77,7 @@ body {
   width: 300px;
   color: #4c5143;
   transition: 0.4s;
-    cursor: default;
+  cursor: default;
 }
 
 #mosque {
@@ -99,6 +99,19 @@ body {
   color: #000000;
 }
 
+.cr {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin: 0 0;
+  padding: 3px 0;
+  font-size: 12px;
+  color: #929d7f;
+  cursor: pointer;
+}
+
+#text-dec {
+  text-decoration: none;
+}
 
 #footer {
   background-color: #C8D6AF;
@@ -106,16 +119,23 @@ body {
   width: auto;
 }
 
-.cr {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
-  margin: 0 0;
-  padding: 3px 0;
-  font-size: 12px;
-  color: #929d7f; 
-  cursor: pointer;
-}
+@media (max-width: 1300px) {
+  #plswork {
+    display: flex;
+    flex-direction: column;
+  }
 
-#text-dec {
-  text-decoration: none;
+  #mosque {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #middle {
+    background-color: #C8D6AF;
+    height: 100vh;
+  }
+
+  body {
+    background-color: #C8D6AF;
+  }
 }
